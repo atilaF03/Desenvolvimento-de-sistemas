@@ -24,15 +24,7 @@ public class Pessoa {
         this.Telefone = Telefone;
     }
 
-    @Override
-    public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("Pessoa{");
-        sb.append("nome=").append(nome);
-        sb.append(", Telefone=").append(Telefone);
-        sb.append('}');
-        return sb.toString();
-    }
+
 
 
 
