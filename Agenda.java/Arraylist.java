@@ -17,15 +17,16 @@ public class Arraylist {
             System.out.println("4 sair");
             System.out.println("escolha a opção ");
             op = sc.nextInt();
+            sc.nextLine();
 
             switch (op) {
                 case 1:
 
                     System.out.println("digite um nome ");
-                    String nome = sc.next();
+                    String nome = sc.nextLine();
 
                     System.out.println("digite um telefone");
-                    String telefone = sc.next();
+                    String telefone = sc.nextLine();
                     list.add(new Pessoa(telefone, nome));
 
                     break;
